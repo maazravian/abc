@@ -1,0 +1,25 @@
+.centre{
+  text-align: center;
+  padding: 100px 10px 10px 10px;
+}
+::ng-deep .borderRed{
+  border: 1px solid #ff726f !important;
+  margin: 5px !important;
+  padding: 0 0 0 10px !important;
+  border-radius: 5px !important;
+}
+::ng-deep .borderNormal{
+  border: 1px solid gray !important;
+  margin: 5px !important;
+  padding: 0 0 0 10px !important;
+  border-radius: 5px !important;
+}
+::ng-deep .mat-focused .mat-form-field-label {
+  /*change color of label*/
+  color: darkgray !important;
+}
+
+::ng-deep.mat-form-field-underline {
+  /*change color of underline*/
+  display: none !important;
+}
